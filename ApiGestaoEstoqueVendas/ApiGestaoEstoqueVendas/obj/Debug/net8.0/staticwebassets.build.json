@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "XAPIBtp5Mu7blRbTEDBwwx/8OTiuIs3zUfjjuoyGbyA=",
+  "Source": "ApiGestaoEstoqueVendas",
+  "BasePath": "_content/ApiGestaoEstoqueVendas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
