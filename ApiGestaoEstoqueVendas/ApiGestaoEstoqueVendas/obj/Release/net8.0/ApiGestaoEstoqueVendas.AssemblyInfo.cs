@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiGestaoEstoqueVendas")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02f1bf8c9f8cd549b22a15dcf85824e64b975b4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiGestaoEstoqueVendas")]

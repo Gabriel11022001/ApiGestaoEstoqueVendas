@@ -23,7 +23,8 @@ builder.Services.AddDbContext<ApiGestaoEstoqueVendasAppDbContexto>(opcoes =>
 // injeção de dependência dos repositórios
 InjecaoDependencia.ImplementarInjecoesDependenciaRepositorios(builder);
 
-// injeção de dependência dos services
+// injeção de dependência dos serviços
+InjecaoDependencia.ImplementarInjecoesDependenciaServicos(builder);
 
 var app = builder.Build();
 

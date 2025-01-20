@@ -22,6 +22,9 @@ namespace ApiGestaoEstoqueVendas.Repositorio
             {
                 categoria.Ativo = novoStatus;
 
+                this._contexto.Categorias.Entry(categoria).State = EntityState.Modified;
+                this._contexto.SaveChanges();
+
                 return;
             }
 
@@ -95,6 +98,13 @@ namespace ApiGestaoEstoqueVendas.Repositorio
                 .OrderBy(c => c.Nome)
                 .Where(c => c.Nome.Contains(nomeCategoriaFiltrar.Trim()))
                 .ToList();
+        }
+
+        public Categoria BuscarCategoriaPeloNome(String nomeCategoria)
+        {
+
+            return this._contexto.Categorias
+                .FirstOrDefault(c => c.Nome.Equals(nomeCategoria.Trim()));
         }
 
     }

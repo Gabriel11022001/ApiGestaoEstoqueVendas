@@ -15,5 +15,7 @@ namespace ApiGestaoEstoqueVendas.Repositorio
 
         void AlterarStatusCategoria(int idCategoria, Boolean novoStatus);
 
+        Categoria BuscarCategoriaPeloNome(String nomeCategoria);
+
     }
 }

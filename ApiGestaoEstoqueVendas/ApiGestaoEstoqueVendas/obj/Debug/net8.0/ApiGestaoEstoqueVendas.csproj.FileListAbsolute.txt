@@ -169,3 +169,5 @@ C:\Users\Gabriel Rodrigues\Desktop\arquivos\MEUS_PROJETOS\api-gestao-estoque-ven
 C:\Users\Gabriel Rodrigues\Desktop\arquivos\MEUS_PROJETOS\api-gestao-estoque-vendas\ApiGestaoEstoqueVendas\ApiGestaoEstoqueVendas\obj\Debug\net8.0\ApiGestaoEstoqueVendas.pdb
 C:\Users\Gabriel Rodrigues\Desktop\arquivos\MEUS_PROJETOS\api-gestao-estoque-vendas\ApiGestaoEstoqueVendas\ApiGestaoEstoqueVendas\obj\Debug\net8.0\ApiGestaoEstoqueVendas.genruntimeconfig.cache
 C:\Users\Gabriel Rodrigues\Desktop\arquivos\MEUS_PROJETOS\api-gestao-estoque-vendas\ApiGestaoEstoqueVendas\ApiGestaoEstoqueVendas\obj\Debug\net8.0\ref\ApiGestaoEstoqueVendas.dll
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\MEUS_PROJETOS\api-gestao-estoque-vendas\ApiGestaoEstoqueVendas\ApiGestaoEstoqueVendas\obj\Debug\net8.0\ApiGestaoEstoqueVendas.sourcelink.json
+C:\Users\Gabriel Rodrigues\Desktop\arquivos\MEUS_PROJETOS\api-gestao-estoque-vendas\ApiGestaoEstoqueVendas\ApiGestaoEstoqueVendas\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
