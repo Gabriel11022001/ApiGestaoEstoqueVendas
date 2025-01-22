@@ -22,6 +22,13 @@ namespace ApiGestaoEstoqueVendas.Repositorio
                 .FirstOrDefault(p => p.Id == id);
         }
 
+        public Produto BuscarProdutoPeloNome(string nomeProduto)
+        {
+
+            return this._contexto.Produtos
+                .FirstOrDefault(p => p.Nome.Equals(nomeProduto));
+        }
+
         public List<Produto> BuscarProdutosEntrePrecos(double precoInicial, double precoFinal)
         {
 

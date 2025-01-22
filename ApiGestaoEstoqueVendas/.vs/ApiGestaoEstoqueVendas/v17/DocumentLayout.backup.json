@@ -7,12 +7,52 @@
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\utils\\produtofiltroentreprecos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\utils\\produtofiltroentreprecos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\servico\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\servico\\produtoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\dto\\produtodtocadastrareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\dto\\produtodtocadastrareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\utils\\converteproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\utils\\converteproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\repositorio\\irepositorioproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\repositorio\\irepositorioproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\servico\\iprodutoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\servico\\iprodutoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\utils\\validaprecosproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\utils\\validaprecosproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\utils\\validaunidadesestoqueproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\utils\\validaunidadesestoqueproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\utils\\convertecategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\utils\\convertecategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\servico\\categoriaservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\servico\\respostahttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\servico\\respostahttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\servico\\iprodutoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\servico\\iprodutoservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\contexto\\injecaodependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,28 +75,8 @@
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\utils\\produtofiltroentreprecos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\utils\\produtofiltroentreprecos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\dto\\produtodtocadastrareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\dto\\produtodtocadastrareditar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\dto\\produtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\model\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\repositorio\\irepositorioproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\repositorio\\irepositorioproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\repositorio\\icategoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\repositorio\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\repositorio\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\utils\\convertecategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|solutionrelative:apigestaoestoquevendas\\utils\\convertecategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{18D9DE9C-4EC7-4B1C-BC96-FED560F4382D}|ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj|c:\\users\\gabriel rodrigues\\desktop\\arquivos\\meus_projetos\\api-gestao-estoque-vendas\\apigestaoestoquevendas\\apigestaoestoquevendas\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,39 +110,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T18:15:32.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ConverteProduto.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:35:37.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ProdutoServico.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\ProdutoServico.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\ProdutoServico.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\ProdutoServico.cs",
               "RelativeToolTip": "ApiGestaoEstoqueVendas\\Servico\\ProdutoServico.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA7wD0AAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T16:57:28.51Z",
               "EditorCaption": ""
@@ -142,123 +124,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IProdutoServico.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "IRepositorioProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T16:56:54.31Z",
+              "WhenOpened": "2025-01-15T19:04:19.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProdutoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Repositorio\\ProdutoRepositorio.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\ProdutoRepositorio.cs",
               "RelativeToolTip": "ApiGestaoEstoqueVendas\\Repositorio\\ProdutoRepositorio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-15T19:05:47.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InjecaoDependencia.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ConverteProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ConverteProduto.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAIAxwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:44:02.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RespostaHttp.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:48:21.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoriaServico.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA7wPoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T17:55:22.474Z",
+              "WhenOpened": "2025-01-20T17:35:37.911Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoriaController.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T18:00:47.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Program.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Program.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Program.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:40:26.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProdutoFiltroEntrePrecos.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T17:06:14.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ProdutoDTOCadastrarEditar.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\DTO\\ProdutoDTOCadastrarEditar.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\DTO\\ProdutoDTOCadastrarEditar.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\DTO\\ProdutoDTOCadastrarEditar.cs",
               "RelativeToolTip": "ApiGestaoEstoqueVendas\\DTO\\ProdutoDTOCadastrarEditar.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T17:00:57.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "ProdutoDTO.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\DTO\\ProdutoDTO.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\DTO\\ProdutoDTO.cs",
@@ -271,33 +188,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "Produto.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Model\\Produto.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Model\\Produto.cs",
               "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Model\\Produto.cs",
               "RelativeToolTip": "ApiGestaoEstoqueVendas\\Model\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T16:58:08.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IRepositorioProduto.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Repositorio\\IRepositorioProduto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABfAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProdutoFiltroEntrePrecos.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ProdutoFiltroEntrePrecos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T19:04:19.213Z",
+              "WhenOpened": "2025-01-20T17:06:14.054Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T18:15:32.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProdutoServico.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Servico\\IProdutoServico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:56:54.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ValidaPrecosProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ValidaPrecosProduto.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ValidaPrecosProduto.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ValidaPrecosProduto.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ValidaPrecosProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T18:01:37.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ValidaUnidadesEstoqueProduto.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ValidaUnidadesEstoqueProduto.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ValidaUnidadesEstoqueProduto.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ValidaUnidadesEstoqueProduto.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ValidaUnidadesEstoqueProduto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T17:48:04.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriaController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Controllers\\CategoriaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T18:00:47.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoriaServico.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Servico\\CategoriaServico.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA7wPoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T17:55:22.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RespostaHttp.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Servico\\RespostaHttp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:48:21.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConverteCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T18:11:51.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InjecaoDependencia.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Contexto\\InjecaoDependencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:44:02.755Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Program.cs",
+              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Program.cs",
+              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T20:40:26.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CategoriaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\CategoriaRepositorio.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Repositorio\\CategoriaRepositorio.cs",
@@ -305,12 +347,11 @@
               "RelativeToolTip": "ApiGestaoEstoqueVendas\\Repositorio\\CategoriaRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:30:07.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T20:30:07.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "CategoriaDTO.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\DTO\\CategoriaDTO.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\DTO\\CategoriaDTO.cs",
@@ -318,12 +359,11 @@
               "RelativeToolTip": "ApiGestaoEstoqueVendas\\DTO\\CategoriaDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:55:15.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T20:55:15.769Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ICategoriaRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Repositorio\\ICategoriaRepositorio.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Repositorio\\ICategoriaRepositorio.cs",
@@ -331,24 +371,11 @@
               "RelativeToolTip": "ApiGestaoEstoqueVendas\\Repositorio\\ICategoriaRepositorio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:26:49.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T20:26:49.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ConverteCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
-              "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
-              "ToolTip": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
-              "RelativeToolTip": "ApiGestaoEstoqueVendas\\Utils\\ConverteCategoria.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA0wCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T18:11:51.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Model\\Categoria.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Model\\Categoria.cs",
@@ -360,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ICategoriaServico.cs",
               "DocumentMoniker": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\Servico\\ICategoriaServico.cs",
               "RelativeDocumentMoniker": "ApiGestaoEstoqueVendas\\Servico\\ICategoriaServico.cs",

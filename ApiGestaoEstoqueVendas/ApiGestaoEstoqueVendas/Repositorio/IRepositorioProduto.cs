@@ -9,5 +9,7 @@
 
         void ControlarUnidadesEstoqueProduto(String tipoOperacao, int quantidade, int idProduto);
 
+        Produto BuscarProdutoPeloNome(String nomeProduto);
+
     }
 }

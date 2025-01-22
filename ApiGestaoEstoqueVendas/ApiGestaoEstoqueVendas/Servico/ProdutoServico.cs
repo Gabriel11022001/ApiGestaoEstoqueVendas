@@ -9,10 +9,12 @@ namespace ApiGestaoEstoqueVendas.Servico
     {
 
         private IRepositorioProduto<Produto> _produtoRepositorio;
+        private ICategoriaRepositorio<Categoria> _categoriaRepositorio;
 
-        public ProdutoServico(IRepositorioProduto<Produto> produtoRepositorio)
+        public ProdutoServico(IRepositorioProduto<Produto> produtoRepositorio, ICategoriaRepositorio<Categoria> categoriaRepositorio)
         {
             this._produtoRepositorio = produtoRepositorio;
+            this._categoriaRepositorio = categoriaRepositorio;
         }
 
         // buscar o produto pelo id na base de dados
@@ -56,14 +58,105 @@ namespace ApiGestaoEstoqueVendas.Servico
 
         }
 
+        // buscar os produtos entre preços
         public RespostaHttp<List<ProdutoDTO>> BuscarProdutosEntrePrecos(ProdutoFiltroEntrePrecos filtro)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+
+                if (filtro.PrecoInicialFiltro > filtro.PrecoFinalFiltro)
+                {
+
+                    return new RespostaHttp<List<ProdutoDTO>>()
+                    {
+                        Mensagem = "O preço inicial do filtro deve ser menor ou igual ao preço final!",
+                        Ok = false,
+                        ConteudoRetorno = null
+                    };
+                }
+
+                List<Produto> produtos = this._produtoRepositorio.BuscarProdutosEntrePrecos(filtro.PrecoInicialFiltro, filtro.PrecoFinalFiltro);
+
+                if (produtos.Count == 0)
+                {
+
+                    return new RespostaHttp<List<ProdutoDTO>>()
+                    {
+                        Mensagem = "Não existem produtos cadastrados entre esses preços!",
+                        Ok = true,
+                        ConteudoRetorno = new List<ProdutoDTO>()
+                    };
+                }
+
+                List<ProdutoDTO> produtosDTO = ConverteProduto.ConverterListaProdutosEmListaProdutosDTO(produtos);
+
+                return new RespostaHttp<List<ProdutoDTO>>()
+                {
+                    Mensagem = "Produtos encontrados com sucesso!",
+                    Ok = true,
+                    ConteudoRetorno = produtosDTO
+                };
+            }
+            catch (Exception e)
+            {
+
+                return new RespostaHttp<List<ProdutoDTO>>()
+                {
+                    Mensagem = "Erro ao tentar-se consultar os produtos entre preços!",
+                    ConteudoRetorno = null,
+                    Ok = false
+                };
+            }
+
         }
 
+        // buscar produtos pela categoria
         public RespostaHttp<List<ProdutoDTO>> BuscarProdutosPelaCategoria(int idCategoriaFiltrar)
         {
-            throw new NotImplementedException();
+            RespostaHttp<List<ProdutoDTO>> respostaConsultarProdutosPelaCategoria = new RespostaHttp<List<ProdutoDTO>>();
+
+            try
+            {
+                // validar se existe uma categoria cadastrada na base de dados com esse id
+                Categoria categoria = this._categoriaRepositorio.BuscarCategoriaPeloId(idCategoriaFiltrar);
+
+                if (categoria is null)
+                {
+                    respostaConsultarProdutosPelaCategoria.Mensagem = "Não existe uma categoria cadastrada na base de dados com esse id!";
+                    respostaConsultarProdutosPelaCategoria.Ok = false;
+                    respostaConsultarProdutosPelaCategoria.ConteudoRetorno = null;
+                }
+                else
+                {
+                    List<Produto> produtos = this._produtoRepositorio.BuscarProdutosPelaCategoria(idCategoriaFiltrar);
+
+                    if (produtos.Count > 0)
+                    {
+                        List<ProdutoDTO> produtosDTO = ConverteProduto.ConverterListaProdutosEmListaProdutosDTO(produtos);
+
+                        respostaConsultarProdutosPelaCategoria.Mensagem = "Produtos encontrados com sucesso!";
+                        respostaConsultarProdutosPelaCategoria.Ok = true;
+                        respostaConsultarProdutosPelaCategoria.ConteudoRetorno = produtosDTO;
+                    }
+                    else
+                    {
+                        respostaConsultarProdutosPelaCategoria.Mensagem = "Não existem produtos cadastrados na base de dados com essa categoria!";
+                        respostaConsultarProdutosPelaCategoria.Ok = true;
+                        respostaConsultarProdutosPelaCategoria.ConteudoRetorno = new List<ProdutoDTO>();
+                    }
+
+                }
+
+            }
+            catch (Exception e)
+            {
+                respostaConsultarProdutosPelaCategoria.Mensagem = "Erro ao tentar-se consultar os produtos pela categoria: " + e.Message;
+                respostaConsultarProdutosPelaCategoria.Ok = false;
+                respostaConsultarProdutosPelaCategoria.ConteudoRetorno = null;
+            }
+
+            return respostaConsultarProdutosPelaCategoria;
         }
 
         // buscar todos os produtos
@@ -99,9 +192,94 @@ namespace ApiGestaoEstoqueVendas.Servico
             return respostaConsultarTodosProdutos;
         }
 
+        // cadastrar produto na base de dados
         public RespostaHttp<ProdutoDTO> CadastrarProduto(ProdutoDTOCadastrarEditar produtoDTOCadastrarEditar)
         {
-            throw new NotImplementedException();
+            RespostaHttp<ProdutoDTO> respostaCadastrarProduto = new RespostaHttp<ProdutoDTO>();
+
+            try
+            {
+
+                if (!ValidaUnidadesEstoqueProduto.Validar(produtoDTOCadastrarEditar.QuantidadeUnidadesEstoque))
+                {
+                    respostaCadastrarProduto.Mensagem = "Quantidade de unidades do produto em estoque inválido!";
+                    respostaCadastrarProduto.Ok = false;
+                    respostaCadastrarProduto.ConteudoRetorno = null;
+                }
+                else if (!ValidaPrecosProduto.ValidarPreco(produtoDTOCadastrarEditar.PrecoCompra))
+                {
+                    respostaCadastrarProduto.Mensagem = "Preço de compra inválido!";
+                    respostaCadastrarProduto.Ok = false;
+                    respostaCadastrarProduto.ConteudoRetorno = null;
+                }
+                else if (!ValidaPrecosProduto.ValidarPreco(produtoDTOCadastrarEditar.PrecoVenda))
+                {
+                    respostaCadastrarProduto.Mensagem = "Preço de venda inválido!";
+                    respostaCadastrarProduto.Ok = false;
+                    respostaCadastrarProduto.ConteudoRetorno = null;
+                }
+                else if (!ValidaPrecosProduto.ValidarPrecoCompraMaiorPrecoVenda(produtoDTOCadastrarEditar.PrecoCompra, produtoDTOCadastrarEditar.PrecoVenda))
+                {
+                    respostaCadastrarProduto.Mensagem = "O preço de compra não deve ser menor que o preço de venda do produto!";
+                    respostaCadastrarProduto.Ok = false;
+                    respostaCadastrarProduto.ConteudoRetorno = null;
+                }
+                else if (this.ValidarExisteOutroProdutoCadastradoMesmoNome(produtoDTOCadastrarEditar))
+                {
+                    respostaCadastrarProduto.Mensagem = "Já existe um produto cadastrado com esse nome!";
+                    respostaCadastrarProduto.Ok = false;
+                    respostaCadastrarProduto.ConteudoRetorno = null;
+                }
+                else if (this._categoriaRepositorio.BuscarCategoriaPeloId(produtoDTOCadastrarEditar.CategoriaId) is null)
+                {
+                    respostaCadastrarProduto.Mensagem = "Não existe uma categoria cadastrada na base de dados com esse id!";
+                    respostaCadastrarProduto.Ok = false;
+                    respostaCadastrarProduto.ConteudoRetorno = null;
+                }
+                else
+                {
+                    // persistir o produto na base de dados
+                    produtoDTOCadastrarEditar.DataCadastro = DateTime.Now;
+
+                    if (produtoDTOCadastrarEditar.QuantidadeUnidadesEstoque == 0)
+                    {
+                        produtoDTOCadastrarEditar.StatusEstoque = "zerado";
+                    }
+                    else
+                    {
+                        produtoDTOCadastrarEditar.StatusEstoque = "ok";
+                    }
+
+                    Produto produtoCadastrar = ConverteProduto.ConverterProdutoDTOCadastrarEditarEmProduto(produtoDTOCadastrarEditar);
+                    this._produtoRepositorio.Cadastrar(produtoCadastrar);
+
+                    respostaCadastrarProduto.Mensagem = "Produto cadastrado com sucesso!";
+                    respostaCadastrarProduto.Ok = true;
+                    respostaCadastrarProduto.ConteudoRetorno = ConverteProduto.ConverterProdutoEmProdutoDTO(produtoCadastrar);
+                }
+
+            }
+            catch (Exception e)
+            {
+                respostaCadastrarProduto.Mensagem = "Erro ao tentar-se cadastrar o produto!";
+                respostaCadastrarProduto.Ok = false;
+                respostaCadastrarProduto.ConteudoRetorno = null;
+            }
+
+            return respostaCadastrarProduto;
+        }
+
+        private Boolean ValidarExisteOutroProdutoCadastradoMesmoNome(ProdutoDTOCadastrarEditar produtoDTOCadastrarEditar)
+        {
+            Produto produtoCadastradoComNomeInformado = this._produtoRepositorio.BuscarProdutoPeloNome(produtoDTOCadastrarEditar.Nome.Trim());
+
+            if (produtoCadastradoComNomeInformado is not null && produtoCadastradoComNomeInformado.Id != produtoDTOCadastrarEditar.ProdutoId)
+            {
+
+                return true;
+            }
+
+            return false;
         }
 
         public RespostaHttp<bool> ControlarEstoqueProduto(int idProduto, int unidades, string operacao)

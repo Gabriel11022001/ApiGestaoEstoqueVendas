@@ -90,6 +90,22 @@
   },
   {
     "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
+    "Method": "CadastrarProduto",
+    "RelativePath": "api/Produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produtoDTOCadastrarEditar",
+        "Type": "ApiGestaoEstoqueVendas.DTO.ProdutoDTOCadastrarEditar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
     "Method": "BuscarProdutoPeloId",
     "RelativePath": "api/Produto/{id}",
     "HttpMethod": "GET",
@@ -98,6 +114,43 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
+    "Method": "BuscarProdutosEntrePrecos",
+    "RelativePath": "api/Produto/buscar-entre-precos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "precoInicial",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "precoFinal",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
+    "Method": "BuscarProdutosPelaCategoria",
+    "RelativePath": "api/Produto/buscar-pela-categoria/{idCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
         "Type": "System.Int32",
         "IsRequired": true
       }

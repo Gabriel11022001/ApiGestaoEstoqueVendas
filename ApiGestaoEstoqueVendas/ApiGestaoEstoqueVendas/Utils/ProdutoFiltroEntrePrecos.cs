@@ -47,7 +47,6 @@
 
             }
         }
-        public int ProdutoId { get; set; }
 
     }
 }
