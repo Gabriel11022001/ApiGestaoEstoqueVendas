@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiGestaoEstoqueVendas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d1b038d500b39d36f48c5e4bd1aebc24defb69d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfb384ce679b8a228ceed76f5c649c101cd73405")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiGestaoEstoqueVendas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiGestaoEstoqueVendas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

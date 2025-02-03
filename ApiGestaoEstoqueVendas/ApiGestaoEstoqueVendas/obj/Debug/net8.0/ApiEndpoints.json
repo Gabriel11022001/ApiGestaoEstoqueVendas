@@ -79,6 +79,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.CategoriaControllerAssincrono",
+    "Method": "CadastrarCategoriaAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaDTOCadastrar",
+        "Type": "ApiGestaoEstoqueVendas.DTO.CategoriaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.CategoriaControllerAssincrono",
+    "Method": "BuscarCategoriaPeloIdAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono/{idCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.CategoriaControllerAssincrono",
+    "Method": "DeletarCategoriaAssincrono",
+    "RelativePath": "api/CategoriaControllerAssincrono/{idCategoriaDeletar}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoriaDeletar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.CategoriaControllerAssincrono",
+    "Method": "BuscarCategoriaPeloIdTesteException",
+    "RelativePath": "api/CategoriaControllerAssincrono/buscar-pelo-id-teste-exception/{idCategoria}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCategoria",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
     "Method": "BuscarTodosProdutos",
     "RelativePath": "api/Produto",
@@ -122,6 +186,22 @@
   },
   {
     "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
+    "Method": "DeletarProduto",
+    "RelativePath": "api/Produto/{idProdutoDeletar}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProdutoDeletar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
     "Method": "BuscarProdutosEntrePrecos",
     "RelativePath": "api/Produto/buscar-entre-precos",
     "HttpMethod": "GET",
@@ -152,6 +232,106 @@
       {
         "Name": "idCategoria",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.ProdutoController",
+    "Method": "ControlarEstoqueProduto",
+    "RelativePath": "api/Produto/controlar-estoque-produto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProduto",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "operacao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "unidades",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.VendaController",
+    "Method": "RealizarVenda",
+    "RelativePath": "api/Venda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendaDTOCadastrarEditar",
+        "Type": "ApiGestaoEstoqueVendas.DTO.VendaDTOCadastrarEditar",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.VendaController",
+    "Method": "BuscarTodasVendas",
+    "RelativePath": "api/Venda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.VendaController",
+    "Method": "BuscarVendaPeloId",
+    "RelativePath": "api/Venda/{idVenda}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVenda",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.VendaController",
+    "Method": "DeletarVenda",
+    "RelativePath": "api/Venda/{idVendaDeletar}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idVendaDeletar",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiGestaoEstoqueVendas.Controllers.VendaController",
+    "Method": "BuscarVendasEntrePeriodo",
+    "RelativePath": "api/Venda/buscar-vendas-entre-periodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendaDTOFiltroPeriodos",
+        "Type": "ApiGestaoEstoqueVendas.DTO.VendaDTOFiltroPeriodos",
         "IsRequired": true
       }
     ],

@@ -5163,11 +5163,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj",
       "projectName": "ApiGestaoEstoqueVendas",
-      "projectPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj",
+      "projectPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj",
       "packagesPath": "C:\\Users\\Gabriel Rodrigues\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\obj\\",
+      "outputPath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gabriel Rodrigues\\AppData\\Roaming\\NuGet\\NuGet.Config",

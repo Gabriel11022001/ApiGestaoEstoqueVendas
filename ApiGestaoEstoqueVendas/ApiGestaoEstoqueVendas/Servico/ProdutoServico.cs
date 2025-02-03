@@ -282,14 +282,115 @@ namespace ApiGestaoEstoqueVendas.Servico
             return false;
         }
 
+        // controlar estoque do produto(incrementar ou decrementar unidades em estoque)
         public RespostaHttp<bool> ControlarEstoqueProduto(int idProduto, int unidades, string operacao)
         {
-            throw new NotImplementedException();
+
+            try
+            {
+                // validar a operação
+                if (operacao.Trim() != "incremento" && operacao.Trim() != "decremento")
+                {
+
+                    return new RespostaHttp<bool>()
+                    {
+                        Mensagem = "A operação deve ser 'decremento' ou 'incremento!'",
+                        Ok = false,
+                        ConteudoRetorno = false
+                    };
+                }
+
+                // validar a quantidade de unidades
+                if (unidades <= 0) {
+
+                    return new RespostaHttp<bool>()
+                    {
+                        Mensagem = "Quantidade de unidades inválida!",
+                        Ok = false,
+                        ConteudoRetorno = false
+                    };
+                }
+
+                Produto produtoControleEstoque = this._produtoRepositorio.BuscarPeloId(idProduto);
+
+                if (produtoControleEstoque is null)
+                {
+
+                    return new RespostaHttp<bool>()
+                    {
+                        Mensagem = "Não existe um produto cadastrado na base de dados com o id informado!",
+                        Ok = false,
+                        ConteudoRetorno = false
+                    };
+                }
+
+                if (operacao.Equals("decremento") && unidades > produtoControleEstoque.QuantidadeUnidadesEstoque)
+                {
+
+                    return new RespostaHttp<bool>()
+                    {
+                        Mensagem = "O produto em questão possui " + produtoControleEstoque.QuantidadeUnidadesEstoque + " unidades em estoque, não é possível decrementar " + unidades + " unidades!",
+                        Ok = false,
+                        ConteudoRetorno = false
+                    };
+                }
+
+                this._produtoRepositorio.ControlarUnidadesEstoqueProduto(tipoOperacao: operacao, quantidade: unidades, idProduto: idProduto);
+
+                return new RespostaHttp<bool>()
+                {
+                    Mensagem = "Quantidade de unidades " + operacao + " com sucesso!",
+                    ConteudoRetorno = true,
+                    Ok = true
+                };
+            }
+            catch (Exception e)
+            {
+
+                return new RespostaHttp<bool>()
+                {
+                    Mensagem = "Erro ao tentar-se atualizar o estoque do produto!",
+                    Ok = false,
+                    ConteudoRetorno = false
+                };
+            }
+
         }
 
+        // deletar produto
         public RespostaHttp<bool> DeletarProduto(int idProdutoDeletar)
         {
-            throw new NotImplementedException();
+            RespostaHttp<Boolean> respostaDeletarProduto = new RespostaHttp<bool>();
+
+            try
+            {
+                // validar se existe um produto cadastrado na base de dados com o id informado
+                Produto produtoDeletar = this._produtoRepositorio.BuscarPeloId(idProdutoDeletar);
+
+                if (produtoDeletar == null)
+                {
+                    respostaDeletarProduto.Mensagem = "Não existe um produto cadastrado na base de dados com o id informado!";
+                    respostaDeletarProduto.ConteudoRetorno = false;
+                    respostaDeletarProduto.Ok = false;
+                }
+                else
+                {
+                    this._produtoRepositorio.Deletar(produtoDeletar);
+
+                    respostaDeletarProduto.Mensagem = "Produto deletado com sucesso!";
+                    respostaDeletarProduto.ConteudoRetorno = true;
+                    respostaDeletarProduto.Ok = true;
+                }
+
+            }
+            catch (Exception e)
+            {
+                respostaDeletarProduto.Mensagem = "Erro ao tentar-se deletar o produto da base de dados!";
+                respostaDeletarProduto.Ok = false;
+                respostaDeletarProduto.ConteudoRetorno = false;
+            }
+
+            return respostaDeletarProduto;
         }
 
         public RespostaHttp<ProdutoDTO> EditarProduto(ProdutoDTOCadastrarEditar produtoDTOCadastrarEditar)

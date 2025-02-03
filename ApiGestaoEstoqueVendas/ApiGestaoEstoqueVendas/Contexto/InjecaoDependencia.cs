@@ -12,6 +12,8 @@ namespace ApiGestaoEstoqueVendas.Contexto
         {
             builder.Services.AddScoped<ICategoriaRepositorio<Categoria>, CategoriaRepositorio>();
             builder.Services.AddScoped<IRepositorioProduto<Produto>, ProdutoRepositorio>();
+            builder.Services.AddScoped<IVendaRepositorio<Venda>, VendaRepositorio>();
+            builder.Services.AddScoped<ICategoriaRepositorioAssincrono, CategoriaRepositorioAssincrono>();
         }
 
         // injeções de dependência dos services
@@ -19,6 +21,8 @@ namespace ApiGestaoEstoqueVendas.Contexto
         {
             builder.Services.AddScoped<ICategoriaServico, CategoriaServico>();
             builder.Services.AddScoped<IProdutoServico, ProdutoServico>();
+            builder.Services.AddScoped<IVendaServico, VendaServico>();
+            builder.Services.AddScoped<ICategoriaServicoAssincrono, CategoriaServicoAssincrono>();
         }
 
     }

@@ -91,5 +91,33 @@ namespace ApiGestaoEstoqueVendas.Controllers
             return BadRequest(respostaConsultarProdutosEntrePrecos);
         }
 
+        // deletar produto na base de dados
+        [ HttpDelete("{idProdutoDeletar:int}") ]
+        public IActionResult DeletarProduto(int idProdutoDeletar)
+        {
+            RespostaHttp<Boolean> respostaDeletarProduto = this._produtoServico.DeletarProduto(idProdutoDeletar);
+
+            return respostaDeletarProduto.Ok ? Ok(respostaDeletarProduto) : BadRequest(respostaDeletarProduto);
+        }
+
+        // controle de unidades do produto em estoque
+        [HttpPut("controlar-estoque-produto")]
+        public IActionResult ControlarEstoqueProduto([ FromQuery ] int idProduto, string operacao, int unidades)
+        {
+            RespostaHttp<Boolean> respostaControleEstoqueProduto = this._produtoServico.ControlarEstoqueProduto(
+                idProduto: idProduto,
+                operacao: operacao.ToLower(),
+                unidades: unidades
+            );
+
+            if (respostaControleEstoqueProduto.Ok)
+            {
+
+                return Ok(respostaControleEstoqueProduto);
+            }
+
+            return BadRequest(respostaControleEstoqueProduto);
+        }
+
     }
 }

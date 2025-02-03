@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rKKjnB6Ch+g=",
+  "dgSpecHash": "uKgJ3baabaw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\arquivos\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj",
+  "projectFilePath": "C:\\Users\\Gabriel Rodrigues\\Desktop\\MEUS ARQUIVOS\\MEUS_PROJETOS\\api-gestao-estoque-vendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas\\ApiGestaoEstoqueVendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel Rodrigues\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Gabriel Rodrigues\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

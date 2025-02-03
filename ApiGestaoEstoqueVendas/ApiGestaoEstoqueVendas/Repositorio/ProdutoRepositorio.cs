@@ -74,6 +74,15 @@ namespace ApiGestaoEstoqueVendas.Repositorio
                 produto.QuantidadeUnidadesEstoque -= quantidade;
             }
 
+            if (produto.QuantidadeUnidadesEstoque == 0)
+            {
+                produto.StatusEstoque = "zerado";
+            }
+            else
+            {
+                produto.StatusEstoque = "ok";
+            }
+
             this._contexto.Produtos.Entry(produto).State = EntityState.Modified;
             this._contexto.SaveChanges();
         }

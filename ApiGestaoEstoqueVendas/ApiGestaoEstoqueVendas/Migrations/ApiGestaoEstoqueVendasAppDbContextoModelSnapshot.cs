@@ -43,6 +43,41 @@ namespace ApiGestaoEstoqueVendas.Migrations
                     b.ToTable("Categorias");
                 });
 
+            modelBuilder.Entity("ApiGestaoEstoqueVendas.Model.ItemVenda", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DataRegistroItemVenda")
+                        .HasColumnType("datetime2");
+
+                    b.Property<double>("PrecoProdutoMomentoVenda")
+                        .HasColumnType("float");
+
+                    b.Property<int>("ProdutoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QuantidadeUnidadesProdutoItem")
+                        .HasColumnType("int");
+
+                    b.Property<double>("ValorItem")
+                        .HasColumnType("float");
+
+                    b.Property<int>("VendaId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProdutoId");
+
+                    b.HasIndex("VendaId");
+
+                    b.ToTable("ItensVendas");
+                });
+
             modelBuilder.Entity("ApiGestaoEstoqueVendas.Model.Produto", b =>
                 {
                     b.Property<int>("Id")
@@ -89,6 +124,48 @@ namespace ApiGestaoEstoqueVendas.Migrations
                     b.ToTable("Produtos");
                 });
 
+            modelBuilder.Entity("ApiGestaoEstoqueVendas.Model.Venda", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DataVenda")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("ValorTotalVenda")
+                        .HasColumnType("float");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Vendas");
+                });
+
+            modelBuilder.Entity("ApiGestaoEstoqueVendas.Model.ItemVenda", b =>
+                {
+                    b.HasOne("ApiGestaoEstoqueVendas.Model.Produto", "Produto")
+                        .WithMany()
+                        .HasForeignKey("ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ApiGestaoEstoqueVendas.Model.Venda", "Venda")
+                        .WithMany("ItensVenda")
+                        .HasForeignKey("VendaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Produto");
+
+                    b.Navigation("Venda");
+                });
+
             modelBuilder.Entity("ApiGestaoEstoqueVendas.Model.Produto", b =>
                 {
                     b.HasOne("ApiGestaoEstoqueVendas.Model.Categoria", "Categoria")
@@ -98,6 +175,11 @@ namespace ApiGestaoEstoqueVendas.Migrations
                         .IsRequired();
 
                     b.Navigation("Categoria");
+                });
+
+            modelBuilder.Entity("ApiGestaoEstoqueVendas.Model.Venda", b =>
+                {
+                    b.Navigation("ItensVenda");
                 });
 #pragma warning restore 612, 618
         }
